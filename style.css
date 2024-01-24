@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif !important
+}
+/* navbar css */
+.navbar{
+    background: white !important;
+}
+
+.navbar-nav{
+    margin-left: auto !important;
+
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
+
+.navbar-nav li a:hover{
+    color: tomato;
+}
+
+.icons a{
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: .3s ease-in-out;
+
+}
+
+.icons a:hover{
+    color: tomato;
+}
