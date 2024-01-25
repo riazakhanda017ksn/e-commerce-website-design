@@ -37,3 +37,43 @@ body{
 .icons a:hover{
     color: tomato;
 }
+
+/* banner */
+
+.banner{
+    background:linear-gradient(#000000b1,#000000a7),url(./image/banner1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.banner h6{
+    letter-spacing: 3px;
+}
+
+.banner h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner h5{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.banner button{
+    padding: 8px 25px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
