@@ -76,4 +76,111 @@ body{
     font-weight: 600;
     letter-spacing: 2px;
     margin-top: 20px;
+    transition: .3s ease-in-out;
 }
+
+.banner button:hover{
+    background: #ffffff79;
+}
+/* products section */
+  .product-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+/*  */
+
+.product-section h3{
+    font-size: 23px;
+    font-weight: 700
+}
+
+.product-section p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #767676;
+}
+
+/* product parents grid */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+    .product img{
+     width: 100%;
+     height: 100%;
+    }
+
+    .product{
+        position: relative;
+        transition: .3s ease-in-out !important;
+        cursor: pointer;
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: #e1e1e183;
+        color: black;
+        opacity: 0;
+        cursor: pointer;
+        /* flex */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        /*  */
+        transition: .3s ease-in-out !important
+    
+    }
+
+    .product:hover .overlay{
+        height: 100%;
+        opacity: 1;
+    }
+
+    .overlay h6{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .overlay span{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .star small{
+        font-size: 10px;
+        display: inline-block;
+        margin-top: 2px;
+    }
+    .buy-now {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    
+    .buy-now a{
+        position: relative;
+        top: 70px;
+        background: black;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        /* height width */
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        transition: .3s ease-in-out;
+    }
+    .buy-now a:hover{
+        color: black;
+        background: #F2F4F3;
+    }
